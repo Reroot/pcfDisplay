@@ -36,7 +36,7 @@ export class Labdisplay implements ComponentFramework.StandardControl<IInputs, I
 	/** 
 	 * It is called by the framework prior to a control receiving new data. 
 	 * @returns an object based on nomenclature defined in manifest, expecting object[s] for property marked as “bound” or “output”
-	 */d
+	 */
 	public getOutputs(): IOutputs
 	{
 		return {};
